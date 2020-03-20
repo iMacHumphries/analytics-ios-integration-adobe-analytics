@@ -770,7 +770,7 @@ describe(@"SEGAdobeIntegration", ^{
                 [verify(mockADBMediaHeartbeat) trackEvent:ADBMediaHeartbeatEventChapterStart mediaObject:mockADBMediaObject data:nil];
             });
 
-            it(@"track Video Content Started without Publishe", ^{
+            it(@"track Video Content Started without Publisher", ^{
                 SEGMockADBMediaHeartbeatFactory *mockADBMediaHeartbeatFactory = [[SEGMockADBMediaHeartbeatFactory alloc] init];
                 mockADBMediaHeartbeatFactory.mediaHeartbeat = mockADBMediaHeartbeat;
 
