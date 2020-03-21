@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAEFCD9E06FAEDAEE0872924 /* libPods-Segment-Adobe-AnalyticsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C363FD594A1683306E98ADC /* libPods-Segment-Adobe-AnalyticsTests.a */; };
+		D22C04223F1A1A03B7D34597 /* libPods-Segment_Adobe_AnalyticsTestsTVOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 983D34A1522C4DA006308978 /* libPods-Segment_Adobe_AnalyticsTestsTVOS.a */; };
+		E9722D8B2425700000BAAB52 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E9722D8C2425700500BAAB52 /* (null) in Sources */ = {isa = PBXBuildFile; };
+		E9722D9C24257AD900BAAB52 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3E5E224255E8F0049F667 /* Tests.m */; };
+		E9722D9D24257ADA00BAAB52 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3E5E224255E8F0049F667 /* Tests.m */; };
+		E9722DA524257B7600BAAB52 /* libAdobeMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9722DA424257B7600BAAB52 /* libAdobeMobileSDK.a */; };
+		E9722DA624257C6C00BAAB52 /* Tests-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = E9D3E5E124255E8E0049F667 /* Tests-Prefix.pch */; };
+		E9722DA824257CC400BAAB52 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9722DA724257CC400BAAB52 /* SystemConfiguration.framework */; };
+		E9722DAA24257CCA00BAAB52 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E9722DA924257CCA00BAAB52 /* libsqlite3.0.tbd */; };
+		E9722DAC24257CD300BAAB52 /* libAdobeMobileSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E9722DAB24257CD300BAAB52 /* libAdobeMobileSDK.a */; };
+		E9722DAD24257E3800BAAB52 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E9722DA924257CCA00BAAB52 /* libsqlite3.0.tbd */; };
+		E9D3E5C824255DB50049F667 /* Segment_Adobe_Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3E5A624255D080049F667 /* Segment_Adobe_Analytics.framework */; };
+		E9D3E5D724255DD20049F667 /* Segment_Adobe_Analytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D3E5A624255D080049F667 /* Segment_Adobe_Analytics.framework */; };
+		E9D3E5E524255E8F0049F667 /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3E5E224255E8F0049F667 /* Tests.m */; };
+		E9D3E5F2242561130049F667 /* SEGAdobeIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3E5EB242561130049F667 /* SEGAdobeIntegrationFactory.h */; };
+		E9D3E5F3242561130049F667 /* SEGAdobeIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = E9D3E5EC242561130049F667 /* SEGAdobeIntegration.h */; };
+		E9D3E5F5242561130049F667 /* SEGAdobeIntegrationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3E5EE242561130049F667 /* SEGAdobeIntegrationFactory.m */; };
+		E9D3E5F6242561130049F667 /* SEGAdobeIntegration.m in Sources */ = {isa = PBXBuildFile; fileRef = E9D3E5EF242561130049F667 /* SEGAdobeIntegration.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9D3E5C924255DB50049F667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D3E59D24255D080049F667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D3E5A524255D080049F667;
+			remoteInfo = "Segment-Adobe-Analytics";
+		};
+		E9D3E5D824255DD20049F667 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9D3E59D24255D080049F667 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9D3E5A524255D080049F667;
+			remoteInfo = "Segment-Adobe-Analytics";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C363FD594A1683306E98ADC /* libPods-Segment-Adobe-AnalyticsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Segment-Adobe-AnalyticsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6D48EA40AA7FEF2046328D /* Pods-Segment-Adobe-AnalyticsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Adobe-AnalyticsTests.release.xcconfig"; path = "Target Support Files/Pods-Segment-Adobe-AnalyticsTests/Pods-Segment-Adobe-AnalyticsTests.release.xcconfig"; sourceTree = "<group>"; };
+		6C512DFDB878ED4FEF28A29D /* Pods-Segment_Adobe_AnalyticsTestsTVOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment_Adobe_AnalyticsTestsTVOS.release.xcconfig"; path = "Target Support Files/Pods-Segment_Adobe_AnalyticsTestsTVOS/Pods-Segment_Adobe_AnalyticsTestsTVOS.release.xcconfig"; sourceTree = "<group>"; };
+		8103150E5D362F9659B1BE15 /* Pods-Segment_Adobe_AnalyticsTestsTVOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment_Adobe_AnalyticsTestsTVOS.debug.xcconfig"; path = "Target Support Files/Pods-Segment_Adobe_AnalyticsTestsTVOS/Pods-Segment_Adobe_AnalyticsTestsTVOS.debug.xcconfig"; sourceTree = "<group>"; };
+		978021340097FF5A22F1357D /* Pods-Segment-Adobe-AnalyticsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Segment-Adobe-AnalyticsTests.debug.xcconfig"; path = "Target Support Files/Pods-Segment-Adobe-AnalyticsTests/Pods-Segment-Adobe-AnalyticsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		983D34A1522C4DA006308978 /* libPods-Segment_Adobe_AnalyticsTestsTVOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Segment_Adobe_AnalyticsTestsTVOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9722DA424257B7600BAAB52 /* libAdobeMobileSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAdobeMobileSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9722DA724257CC400BAAB52 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		E9722DA924257CCA00BAAB52 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/usr/lib/libsqlite3.0.tbd; sourceTree = DEVELOPER_DIR; };
+		E9722DAB24257CD300BAAB52 /* libAdobeMobileSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAdobeMobileSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D3E5A624255D080049F667 /* Segment_Adobe_Analytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Segment_Adobe_Analytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D3E5AA24255D080049F667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D3E5C324255DB50049F667 /* Segment-Adobe-AnalyticsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Segment-Adobe-AnalyticsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D3E5C724255DB50049F667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9D3E5D224255DD20049F667 /* Segment_Adobe_AnalyticsTestsTVOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Segment_Adobe_AnalyticsTestsTVOS.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9D3E5E124255E8E0049F667 /* Tests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		E9D3E5E224255E8F0049F667 /* Tests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		E9D3E5EB242561130049F667 /* SEGAdobeIntegrationFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAdobeIntegrationFactory.h; sourceTree = "<group>"; };
+		E9D3E5EC242561130049F667 /* SEGAdobeIntegration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGAdobeIntegration.h; sourceTree = "<group>"; };
+		E9D3E5ED242561130049F667 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		E9D3E5EE242561130049F667 /* SEGAdobeIntegrationFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAdobeIntegrationFactory.m; sourceTree = "<group>"; };
+		E9D3E5EF242561130049F667 /* SEGAdobeIntegration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGAdobeIntegration.m; sourceTree = "<group>"; };
+		E9D3E5F1242561130049F667 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9D3E5A324255D080049F667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9722DAA24257CCA00BAAB52 /* libsqlite3.0.tbd in Frameworks */,
+				E9722DAC24257CD300BAAB52 /* libAdobeMobileSDK.a in Frameworks */,
+				E9722DA824257CC400BAAB52 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D3E5C024255DB50049F667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9722DAD24257E3800BAAB52 /* libsqlite3.0.tbd in Frameworks */,
+				E9722DA524257B7600BAAB52 /* libAdobeMobileSDK.a in Frameworks */,
+				E9D3E5C824255DB50049F667 /* Segment_Adobe_Analytics.framework in Frameworks */,
+				AAEFCD9E06FAEDAEE0872924 /* libPods-Segment-Adobe-AnalyticsTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D3E5CF24255DD20049F667 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D3E5D724255DD20049F667 /* Segment_Adobe_Analytics.framework in Frameworks */,
+				D22C04223F1A1A03B7D34597 /* libPods-Segment_Adobe_AnalyticsTestsTVOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C360985BB93938E065D6971 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				978021340097FF5A22F1357D /* Pods-Segment-Adobe-AnalyticsTests.debug.xcconfig */,
+				2B6D48EA40AA7FEF2046328D /* Pods-Segment-Adobe-AnalyticsTests.release.xcconfig */,
+				8103150E5D362F9659B1BE15 /* Pods-Segment_Adobe_AnalyticsTestsTVOS.debug.xcconfig */,
+				6C512DFDB878ED4FEF28A29D /* Pods-Segment_Adobe_AnalyticsTestsTVOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F2A5681D141E557BF98BC0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9722DAB24257CD300BAAB52 /* libAdobeMobileSDK.a */,
+				E9722DA924257CCA00BAAB52 /* libsqlite3.0.tbd */,
+				E9722DA724257CC400BAAB52 /* SystemConfiguration.framework */,
+				E9722DA424257B7600BAAB52 /* libAdobeMobileSDK.a */,
+				0C363FD594A1683306E98ADC /* libPods-Segment-Adobe-AnalyticsTests.a */,
+				983D34A1522C4DA006308978 /* libPods-Segment_Adobe_AnalyticsTestsTVOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9D3E59C24255D080049F667 = {
+			isa = PBXGroup;
+			children = (
+				E9D3E5A824255D080049F667 /* Segment-Adobe-Analytics */,
+				E9D3E5C424255DB50049F667 /* Segment-Adobe-AnalyticsTests */,
+				E9D3E5A724255D080049F667 /* Products */,
+				0C360985BB93938E065D6971 /* Pods */,
+				6F2A5681D141E557BF98BC0B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9D3E5A724255D080049F667 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3E5A624255D080049F667 /* Segment_Adobe_Analytics.framework */,
+				E9D3E5C324255DB50049F667 /* Segment-Adobe-AnalyticsTests.xctest */,
+				E9D3E5D224255DD20049F667 /* Segment_Adobe_AnalyticsTestsTVOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D3E5A824255D080049F667 /* Segment-Adobe-Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3E5F0242561130049F667 /* Assets */,
+				E9D3E5EA242561130049F667 /* Classes */,
+				E9D3E5AA24255D080049F667 /* Info.plist */,
+			);
+			path = "Segment-Adobe-Analytics";
+			sourceTree = "<group>";
+		};
+		E9D3E5C424255DB50049F667 /* Segment-Adobe-AnalyticsTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3E5E124255E8E0049F667 /* Tests-Prefix.pch */,
+				E9D3E5E224255E8F0049F667 /* Tests.m */,
+				E9D3E5C724255DB50049F667 /* Info.plist */,
+			);
+			path = "Segment-Adobe-AnalyticsTests";
+			sourceTree = "<group>";
+		};
+		E9D3E5EA242561130049F667 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3E5EB242561130049F667 /* SEGAdobeIntegrationFactory.h */,
+				E9D3E5EC242561130049F667 /* SEGAdobeIntegration.h */,
+				E9D3E5ED242561130049F667 /* .gitkeep */,
+				E9D3E5EE242561130049F667 /* SEGAdobeIntegrationFactory.m */,
+				E9D3E5EF242561130049F667 /* SEGAdobeIntegration.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E9D3E5F0242561130049F667 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E9D3E5F1242561130049F667 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E9D3E5A124255D080049F667 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9722DA624257C6C00BAAB52 /* Tests-Prefix.pch in Headers */,
+				E9D3E5F2242561130049F667 /* SEGAdobeIntegrationFactory.h in Headers */,
+				E9D3E5F3242561130049F667 /* SEGAdobeIntegration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E9D3E5A524255D080049F667 /* Segment-Adobe-Analytics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D3E5AE24255D080049F667 /* Build configuration list for PBXNativeTarget "Segment-Adobe-Analytics" */;
+			buildPhases = (
+				E9D3E5A124255D080049F667 /* Headers */,
+				E9D3E5A224255D080049F667 /* Sources */,
+				E9D3E5A324255D080049F667 /* Frameworks */,
+				E9D3E5A424255D080049F667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Segment-Adobe-Analytics";
+			productName = "Segment-Adobe-Analytics";
+			productReference = E9D3E5A624255D080049F667 /* Segment_Adobe_Analytics.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9D3E5C224255DB50049F667 /* Segment-Adobe-AnalyticsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D3E5CB24255DB50049F667 /* Build configuration list for PBXNativeTarget "Segment-Adobe-AnalyticsTests" */;
+			buildPhases = (
+				F1E0AA263C1257C8B839CD1B /* [CP] Check Pods Manifest.lock */,
+				E9D3E5BF24255DB50049F667 /* Sources */,
+				E9D3E5C024255DB50049F667 /* Frameworks */,
+				E9D3E5C124255DB50049F667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D3E5CA24255DB50049F667 /* PBXTargetDependency */,
+			);
+			name = "Segment-Adobe-AnalyticsTests";
+			productName = "Segment-Adobe-AnalyticsTests";
+			productReference = E9D3E5C324255DB50049F667 /* Segment-Adobe-AnalyticsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9D3E5D124255DD20049F667 /* Segment_Adobe_AnalyticsTestsTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9D3E5DA24255DD20049F667 /* Build configuration list for PBXNativeTarget "Segment_Adobe_AnalyticsTestsTVOS" */;
+			buildPhases = (
+				480E74D7DB4C6F914D13E788 /* [CP] Check Pods Manifest.lock */,
+				E9D3E5CE24255DD20049F667 /* Sources */,
+				E9D3E5CF24255DD20049F667 /* Frameworks */,
+				E9D3E5D024255DD20049F667 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9D3E5D924255DD20049F667 /* PBXTargetDependency */,
+			);
+			name = Segment_Adobe_AnalyticsTestsTVOS;
+			productName = Segment_Adobe_AnalyticsTestsTVOS;
+			productReference = E9D3E5D224255DD20049F667 /* Segment_Adobe_AnalyticsTestsTVOS.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9D3E59D24255D080049F667 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Segment;
+				TargetAttributes = {
+					E9D3E5A524255D080049F667 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E9D3E5C224255DB50049F667 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E9D3E5D124255DD20049F667 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E9D3E5A024255D080049F667 /* Build configuration list for PBXProject "Segment-Adobe-Analytics" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9D3E59C24255D080049F667;
+			productRefGroup = E9D3E5A724255D080049F667 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9D3E5A524255D080049F667 /* Segment-Adobe-Analytics */,
+				E9D3E5C224255DB50049F667 /* Segment-Adobe-AnalyticsTests */,
+				E9D3E5D124255DD20049F667 /* Segment_Adobe_AnalyticsTestsTVOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9D3E5A424255D080049F667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D3E5C124255DB50049F667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D3E5D024255DD20049F667 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		480E74D7DB4C6F914D13E788 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Segment_Adobe_AnalyticsTestsTVOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1E0AA263C1257C8B839CD1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Segment-Adobe-AnalyticsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9D3E5A224255D080049F667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9722D9C24257AD900BAAB52 /* Tests.m in Sources */,
+				E9D3E5F6242561130049F667 /* SEGAdobeIntegration.m in Sources */,
+				E9D3E5F5242561130049F667 /* SEGAdobeIntegrationFactory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D3E5BF24255DB50049F667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9722D8B2425700000BAAB52 /* (null) in Sources */,
+				E9D3E5E524255E8F0049F667 /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9D3E5CE24255DD20049F667 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9722D8C2425700500BAAB52 /* (null) in Sources */,
+				E9722D9D24257ADA00BAAB52 /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9D3E5CA24255DB50049F667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D3E5A524255D080049F667 /* Segment-Adobe-Analytics */;
+			targetProxy = E9D3E5C924255DB50049F667 /* PBXContainerItemProxy */;
+		};
+		E9D3E5D924255DD20049F667 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9D3E5A524255D080049F667 /* Segment-Adobe-Analytics */;
+			targetProxy = E9D3E5D824255DD20049F667 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E9D3E5AC24255D080049F667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E9D3E5AD24255D080049F667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9D3E5AF24255D080049F667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Segment-Adobe-Analytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Adobe-Analytics";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Debug;
+		};
+		E9D3E5B024255D080049F667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Segment-Adobe-Analytics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Adobe-Analytics";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos appletvos appletvsimulator";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
+			};
+			name = Release;
+		};
+		E9D3E5CC24255DB50049F667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 978021340097FF5A22F1357D /* Pods-Segment-Adobe-AnalyticsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Segment-Adobe-AnalyticsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Adobe-AnalyticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9D3E5CD24255DB50049F667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6D48EA40AA7FEF2046328D /* Pods-Segment-Adobe-AnalyticsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Segment-Adobe-AnalyticsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Adobe-AnalyticsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9D3E5DB24255DD20049F667 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8103150E5D362F9659B1BE15 /* Pods-Segment_Adobe_AnalyticsTestsTVOS.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Segment_Adobe_AnalyticsTestsTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Adobe-AnalyticsTestsTVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		E9D3E5DC24255DD20049F667 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C512DFDB878ED4FEF28A29D /* Pods-Segment_Adobe_AnalyticsTestsTVOS.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Segment_Adobe_AnalyticsTestsTVOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.segment.Segment-Adobe-AnalyticsTestsTVOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9D3E5A024255D080049F667 /* Build configuration list for PBXProject "Segment-Adobe-Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D3E5AC24255D080049F667 /* Debug */,
+				E9D3E5AD24255D080049F667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D3E5AE24255D080049F667 /* Build configuration list for PBXNativeTarget "Segment-Adobe-Analytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D3E5AF24255D080049F667 /* Debug */,
+				E9D3E5B024255D080049F667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D3E5CB24255DB50049F667 /* Build configuration list for PBXNativeTarget "Segment-Adobe-AnalyticsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D3E5CC24255DB50049F667 /* Debug */,
+				E9D3E5CD24255DB50049F667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9D3E5DA24255DD20049F667 /* Build configuration list for PBXNativeTarget "Segment_Adobe_AnalyticsTestsTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9D3E5DB24255DD20049F667 /* Debug */,
+				E9D3E5DC24255DD20049F667 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9D3E59D24255D080049F667 /* Project object */;
+}

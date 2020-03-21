@@ -1,23 +1,29 @@
 
-SDK ?= "iphonesimulator"
-DESTINATION ?= "platform=iOS Simulator,name=iPhone 7"
 PROJECT := Segment-Adobe-Analytics
-XC_ARGS := -scheme $(PROJECT)_Example -workspace Example/$(PROJECT).xcworkspace -sdk $(SDK) -destination $(DESTINATION) ONLY_ACTIVE_ARCH=NO
 
-install: Example/Podfile $(PROJECT).podspec
+XC_ARGS := -workspace $(PROJECT).xcworkspace
+IOS_XCARGS := $(XC_ARGS) -destination "platform=iOS Simulator,name=iPhone 11" -sdk iphonesimulator
+TVOS_XCARGS := $(XC_ARGS) -destination "platform=tvOS Simulator,name=Apple TV"
+
+install: Podfile $(PROJECT).podspec
 	pod repo update
-	pod install --project-directory=Example
+	pod install
 
 lint:
 	pod lib lint --allow-warnings --use-libraries
 
 clean:
-	set -o pipefail && xcodebuild $(XC_ARGS) clean | xcpretty
+	set -o pipefail && xcodebuild $(XC_ARGS) clean | xcprettys
 
 build:
 	set -o pipefail && xcodebuild $(XC_ARGS) | xcpretty
 
-test:
-	set -o pipefail && xcodebuild test $(XC_ARGS) | xcpretty --report junit
+test-ios:
+	set -o pipefail && xcodebuild clean test $(IOS_XCARGS) -scheme $(PROJECT)Tests ONLY_ACTIVE_ARCH=NO | xcpretty --report junit
+
+test-tvos:
+	set -o pipefail && xcodebuild clean test $(TVOS_XCARGS) -scheme Segment_Adobe_AnalyticsTestsTVOS ONLY_ACTIVE_ARCH=NO | xcpretty --report junit
+
+test: test-ios test-tvos
 
 .PHONY: clean install build test

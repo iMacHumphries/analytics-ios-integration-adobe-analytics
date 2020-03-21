@@ -1,0 +1,57 @@
+PODS:
+  - AdobeMobileSDK (4.19.1):
+    - AdobeMobileSDK/iOS (= 4.19.1)
+  - AdobeMobileSDK/iOS (4.19.1)
+  - AdobeMobileSDK/TVOS (4.19.1)
+  - AdobeVideoHeartbeatSDK (2.1):
+    - AdobeVideoHeartbeatSDK/iOS (= 2.1)
+  - AdobeVideoHeartbeatSDK/iOS (2.1):
+    - AdobeMobileSDK
+  - AdobeVideoHeartbeatSDK/TVOS (2.1):
+    - AdobeMobileSDK/TVOS
+  - Analytics (3.7.1)
+  - Expecta (1.0.6)
+  - OCHamcrest (7.1.2)
+  - OCMockito (5.1.3):
+    - OCHamcrest (~> 7.0)
+  - Segment-Adobe-Analytics (1.3.0):
+    - AdobeMobileSDK
+    - AdobeMobileSDK/TVOS
+    - AdobeVideoHeartbeatSDK
+    - AdobeVideoHeartbeatSDK/TVOS
+    - Analytics (~> 3.5)
+  - Specta (1.0.7)
+
+DEPENDENCIES:
+  - Expecta
+  - OCMockito
+  - Segment-Adobe-Analytics (from `./`)
+  - Specta
+
+SPEC REPOS:
+  trunk:
+    - AdobeMobileSDK
+    - AdobeVideoHeartbeatSDK
+    - Analytics
+    - Expecta
+    - OCHamcrest
+    - OCMockito
+    - Specta
+
+EXTERNAL SOURCES:
+  Segment-Adobe-Analytics:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  AdobeMobileSDK: 1d79bf4237c304cab5b7ac8b885146f7abd65261
+  AdobeVideoHeartbeatSDK: e18cf047ae5d995f1762514a66c963dfff60cebf
+  Analytics: f82f3cd6d3c8fbfd76ce25773199576656981a4a
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  OCHamcrest: b284c9592c28c1e4025a8542e67ea41a635d0d73
+  OCMockito: 677cbb4a18fd492b5a4fb10144dada4de5ddb877
+  Segment-Adobe-Analytics: b27655ce6858b84ffe6b85866e9de70638c727f0
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+
+PODFILE CHECKSUM: 1446fbfb5e9bfdcb0f6b0cc4c977e08f426d9be8
+
+COCOAPODS: 1.9.1
