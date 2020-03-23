@@ -1,5 +1,3 @@
-install! 'cocoapods', :deterministic_uuids => false, :integrate_targets => false
-
 target 'Segment-Adobe-Analytics_Example' do
   platform :ios, '8.0'
   pod 'Segment-Adobe-Analytics', :path => '../'
